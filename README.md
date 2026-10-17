@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="#hero"><sup>o</sup> pure flave</a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#shop">Shop</a></li>
+                    <li class="header__nav-list"><a href="#subscription">Subscription</a></li>
+                    <li class="header__nav-list"><a href="#about">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main >
+        <section class="hero" id="hero">
+            <div class="container hero__container">
+                <div class="hero__text-wrapper">
+                <h1 class="hero__title">Freshly pressed, <br />
+                straight to <br />
+                 your door</h1>
+                <p class="hero__desc">At Pure Flave, we’re dedicated to goodness in every sip. Delicious, fresh juice, just as nature intended.</p>
+                <button class="hero__cta">shop</button>
+            </div>
+            <img src="./images/image 3 (3).png" alt="">
+            </div>
+        </section>
+        <section  class="shop" id="shop">
+            <div class="container shop__container">
+            <div class="shop__text-wrapper">
+                <h2 class="shop__title">>Shop flaves</h2>
+                <p class="shop__desc">Cold-pressed, 100% organic, packed with vitamins, nutrients, and natural goodness</p>
+            </div>
+            <img src="./images\Rectangle 3.png" alt="">
+            <img src="./images\Rectangle 4 (1).png" alt="">
+            <img src="./images\Rectangle 5 (1).png" alt="">
+            </div>
+        </section>
+        <section  class="Sub" id="Subscription">
+            <div class="container sub__container ">
+                <div class="sub__text-wrapper">
+                    <h2 class="sub__title" >Subscription</h2>
+                    <p class="sub__desc">Subscribe to any of our plans and select how often you want them delivered.</p>
+                </div>
+                <img src="./images\Rectangle 6 (1).png" alt="">
+                <img src="./images\Rectangle 7 (1).png" alt="">
+                <img src="./images\Rectangle 8 (2).png" alt="">
+            </div>
+        </section>
+        <section  class="about" id="about">
+            <div class="container about__container">
+                <div class="about__text-wrapper">
+                    <h3>About Us</h3>
+                    <h2 class="about__title">Bringing 100% natural juices straight to your door</h2>
+                    <p class="about__desc">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to
+                    add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a
+                    little more about you</p>
+                </div>
+                <img src="./images\image 4.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+            <div class="footer__container container">
+                <ul class="footer__text-wrapper">
+                    <li class="text_item">Terms & Condition</li>
+                    <li>Privacy Policy</li>
+                    <li>Shipping Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>FAQ</li>
+                    <li>Payment Methods</li>
+                    <li>Address:</li>
+                    <li>500 Terry Francine St.</li>
+                    <li>San Francisco, CA 94158</li>
+                    <li>Contact:</li>
+                    <li>info@mysite.com</li>
+                    <li>123-456-7890</li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>
