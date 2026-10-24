@@ -4,8 +4,8 @@
     --secondary-text: #707070;
     --accent: #779611;
 
-    --font-primary: 'montserrat', sans-serif;
-    --font-secondary: 'exo 2', sans-serif ;
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Exo 2', sans-serif ;
 }
 
 * {
@@ -75,6 +75,10 @@ body {
 color: var(--primary-text);
 }
 
+.hero {
+    border-bottom: 2px solid var(--accent);
+}
+
 .hero__container {
     display: flex;
     justify-content: space-between;
@@ -90,6 +94,7 @@ color: var(--primary-text);
 }
 .hero__desc {
     font-size: 24px;
+    margin-bottom: 50px;
 }
 .hero__cta {
     background-color: var(--accent);
@@ -98,4 +103,90 @@ color: var(--primary-text);
     padding: 18px 70px;
     font-size: 32px;
     text-transform: capitalize;
+}
+
+.shop {
+    padding-top: 80px;
+}
+.shop__title {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+.shop__desc {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.shop__list {
+    display: flex;
+    gap: 20px;
+}
+.shop__item h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+.sub {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid var(--accent)
+}
+.sub__title {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.sub__desc {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.sub__list {
+    display: flex;
+    gap: 20px;
+}
+
+.sub__item h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about__text-wrapper {
+    max-width: 580px;
+}
+.about__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.about-title {
+    font-size: 48px;
+    margin-bottom: 35px;
+}
+.about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid var(--accent)
+}
+.about__desc {
+    font-size: 20px;
+    margin-bottom: 204px;
+}
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer__container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer__info {
+
 }
